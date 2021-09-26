@@ -11,7 +11,7 @@ b. Predicting the Yearly Amount Spent by the customer on Web and Mobile App usin
 
 # 2. Logistic Regression:
 
-a. Using titanic_train.csv dataset tried to predict whether the passenger survived or not using Logistic Regression. Some of the columns were missing values, so we cleaned the data first either by deleting the row alltogether or by extrapolating the values of the non-null entries to null entries if the column was not missing a lot of the values. We then train by logistic regression which is a binary classifier and predicts either Survived or not survived, based on other input features from titanic_train.csv dataset. Then we teat our trained model on titanic_test.csv dataset.
+a. Using titanic_train.csv dataset tried to predict whether the passenger survived or not using Logistic Regression. Some of the columns were missing values, so we cleaned the data first either by deleting the row alltogether or by extrapolating the values of the non-null entries to null entries if the column was not missing a lot of the values. We then train by logistic regression which is a binary classifier and predicts either Survived or not survived, based on other input features from titanic_train.csv dataset. Then we test our trained model on titanic_test.csv dataset.
 
 b. Using advertising.csv dataset we try to predict whether a user based on different input parameters such as age, daily time spent on site, daily internet usage etc clicked on ad or not. We use Logistic Regression and provide input parameters and try to predict output label which is clicked on ad. We also cleaned the data, and converted some continuous data to categorical data in order to extract maximum information from the data.
 
